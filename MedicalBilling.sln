@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalBilling", "MedicalBilling\MedicalBilling.csproj", "{0D376E1E-600C-4A3E-B26A-B6143CB36EAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{47AA5036-CCDA-4FE3-8FBF-8DE1D2288F9C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{E2BEB732-57F3-4D4B-BF5A-E46D285BD079}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\MedicalBilling-WAWS-dev.json = PublishScripts\Configurations\MedicalBilling-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D376E1E-600C-4A3E-B26A-B6143CB36EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D376E1E-600C-4A3E-B26A-B6143CB36EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D376E1E-600C-4A3E-B26A-B6143CB36EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D376E1E-600C-4A3E-B26A-B6143CB36EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2BEB732-57F3-4D4B-BF5A-E46D285BD079} = {47AA5036-CCDA-4FE3-8FBF-8DE1D2288F9C}
+	EndGlobalSection
+EndGlobal
